@@ -1,7 +1,26 @@
 # Curso de React
 
 ## ¿Qué es?
-Es una biblioteca de javascript de código abierto
+Es una biblioteca de javascript de código abierto. Construir interfaces de usuario
+React es declarativo.
+
+## Razones por usar react
+- Es el framework más utilizado 
+- Mantenimiento asegurado / comunidad
+- Facilita pasar de un framework a otro
+- Api estable
+
+## Diferencia entre imperativo y declarativo 
+### Código imperativo
+- Cómo hacer 
+
+### Código declarativo
+- Describir lo que quieras que haga
+
+### Componente y elemento
+__Componente__: Un componente es una función que retorna elementos .
+__Elemento__: Un elemento es o que renderiza react.
+
 
 ## Funciones
 1. Componentes reutilizables 
@@ -23,15 +42,35 @@ __Componente:__ Es una parte de la interfaz de usuario que es independiente y re
 ## Props
 Propiedades - argumentos que puede recibir un componente de react.
 Los props pueden ser enviados de un componente **padre** a un componente **Hijo**, es lineal. No se puede enviar props de un componente **hijo** a un componente **padre**.
+Las props deben ser inmutables
+
+## Children 
+En react al llamar un componente, no necesariamente tiene que ser una __self-closing tags__. Podemos cerrarlas y pasar __children__ para recuperarlos como __props__ en nuestros componentes
+
+<Card>
+  Soy un children de Card
+</Card> 
+<Card />
 
 ## State
 Representación de javascript del conjunto de propiedades de un componente y sus valores actuales.
+
 
 __NOTA:__ Anteriormente en versiones 16.8 hacia abajo, se usaba componentes de clase para trabajar con los **estados** de los componentes, debido a que las funciones funcionales no lo permitían.
 
 ## Hooks
 Es una función especial que te permite trabajar con estados en componentes funcionales y otros aspectos de react.
 Con **hooks** podemos agregar ciertos estados a los componentes funcionales. Asignar y actualizar.
+
+Para usar los hooks imporatmos useState
+Esta función requiere como parametro el valor incial de nuestro elemento y retorna
+un array de dos posiciones.
+
+### Primera posición 
+El valor del elemento 
+
+### Segunda posición 
+La función o acción que permite que cambie ese estado del elemento.
 
 ## Event Listener 
 Es una función que es ejecutada cuando ocurre un evento en específico.
