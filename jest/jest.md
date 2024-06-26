@@ -23,7 +23,8 @@ Jest es un framework de javascript testing enfocado en la simplicidad
 ## Matchers 
 Son funciones que se utilizan para comparar valores en las pruebas
 1. __toBe()__: Que sea ago 
-    ```test("Object is equal objec", ()=>{
+    ```
+    test("Object is equal objec", ()=>{
         expect(data).not.toEqual(data1);
     })
 1. __test()__: Palabra reservada para testear el código 
