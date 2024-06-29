@@ -1,4 +1,3 @@
-# Curso modelado de base de datos
 CREATE DATABASE plumbing;
 USE plumbing;
 
@@ -113,3 +112,5 @@ ALTER TABLE plumbers
 
 ALTER TABLE bills
 	ADD COLUMN address VARCHAR(255) NOT NULL;
+
+![Image_de_la_base_de_datos_creada]("./img/database-one.png");
